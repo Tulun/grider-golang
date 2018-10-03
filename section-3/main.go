@@ -5,11 +5,9 @@ import (
 )
 
 func main() {
-	// These are equivalent declarations
-	// var card string = "Ace of Spades"
-	card := newCard()
+	cards := []string{"Ace of Diamonds", newCard()}
 
-	fmt.Println(card)
+	fmt.Println(cards)
 }
 
 func newCard() string {
