@@ -1,0 +1,1 @@
+Going through Stephen Grider's Golang course.
