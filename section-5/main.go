@@ -21,7 +21,6 @@ func main() {
 
 	bloop := make(map[string]string)
 	fmt.Println(bloop)
-
 }
 
 func printMap(c map[string]string) {
