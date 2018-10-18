@@ -11,4 +11,10 @@ func main() {
 	}
 
 	fmt.Println(colors)
+
+	var blerp map[string]string
+	fmt.Println(blerp)
+
+	bloop := make(map[string]string)
+	fmt.Println(bloop)
 }
