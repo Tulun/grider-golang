@@ -15,8 +15,12 @@ func main() {
 	// fmt.Println(alex)
 	// Way three of declaring a struct. Assigns value of empty string ""
 	// var alex person
+	// alex.firstName="Alex"
+	// alex.lastName="Anderson"
 	// fmt.Printf("%+v", alex)
 
-	alex := person{firstName: "Alex", lastName: "Anderson"}
-	fmt.Println(alex)
+	var alex person
+	alex.firstName = "Alex"
+	alex.lastName = "Anderson"
+	fmt.Printf("%+v", alex)
 }
