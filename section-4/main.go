@@ -35,7 +35,6 @@ func main() {
 	}
 
 	jim.updateName("Bobby")
-
 	jim.print()
 }
 
