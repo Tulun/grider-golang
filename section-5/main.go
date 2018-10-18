@@ -14,6 +14,8 @@ func main() {
 	fmt.Println(colors)
 	fmt.Println(colors["white"])
 
+	delete(colors, "white")
+	fmt.Println(colors)
 	var blerp map[string]string
 	fmt.Println(blerp)
 
