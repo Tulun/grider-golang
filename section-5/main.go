@@ -10,11 +10,14 @@ func main() {
 		"blue": "#0000FF",
 	}
 
+	colors["white"] = "#ffffff"
 	fmt.Println(colors)
+	fmt.Println(colors["white"])
 
 	var blerp map[string]string
 	fmt.Println(blerp)
 
 	bloop := make(map[string]string)
 	fmt.Println(bloop)
+
 }
