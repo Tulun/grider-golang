@@ -22,8 +22,11 @@ func main() {
 	}
 
 	// for i := 0; i < len(links); i++ {
-	for {
-		go checkLink(<-c, c)
+	// for {
+	// 	go checkLink(<-c, c)
+	// }
+	for l := range c {
+		go checkLink(l, c)
 	}
 }
 
